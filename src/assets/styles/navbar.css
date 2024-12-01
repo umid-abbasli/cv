@@ -1,0 +1,46 @@
+header{
+    z-index: 10;
+    background: #fff;
+    box-shadow: 0 0 3px #3838386c;
+    top: 0;
+    left: 0;
+}
+.logo{
+    max-width: 180px;
+}
+.logo img{
+    width: 100%;
+}
+.nav_login_reg a img{
+    width: 24px;
+}
+.nav_sign_up{
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: .3s;
+    border: 1px solid #000;
+}
+.nav_sign_up:hover{
+    color: #fff;
+    background: #383838;
+}
+.nav_sign_up img{
+    transition: .3s;
+}
+.nav_sign_up:hover img{
+    filter: invert(1);
+}
+nav a.nav_sign_in{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #383838;
+    color: #fff;
+    transition: .3s;
+}
+nav a.nav_sign_in img{
+    filter: invert(1);
+    transition: .2s;
+}
+nav a.nav_sign_in:hover img{
+    transform: translateX(5px);
+}

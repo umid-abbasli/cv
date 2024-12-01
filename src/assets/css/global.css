@@ -1,0 +1,156 @@
+.flex{
+    display: flex;
+}
+.grid{
+    display: grid;
+}
+.col_2{
+    grid-template-columns: repeat(2, 1fr);
+}
+.col_3{
+    grid-template-columns: repeat(3, 1fr);
+}
+.col_4{
+    grid-template-columns: repeat(4, 1fr);
+}
+.z1{
+    z-index: 1;
+}
+.z2{
+    z-index: 2;
+}
+.z3{
+    z-index: 3;
+}
+.z4{
+    z-index: 4;
+}
+.gap_05{
+    gap: 5px;
+}
+.gap_1{
+    gap: 10px;
+}
+.gap_2{
+    gap: 20px;
+}
+.gap_3{
+    gap: 30px;
+}
+.gap_4{
+    gap: 40px;
+}
+.gap_5{
+    gap: 50px;
+}
+.r_gap_1{
+    row-gap: 10px;
+}
+.r_gap_2{
+    row-gap: 20px;
+}
+.r_gap_3{
+    row-gap: 30px;
+}
+.r_gap_4{
+    row-gap: 40px;
+}
+.aic{
+    align-items: center;
+}
+.jcc{
+    justify-content: center;
+}
+.jcsb{
+    justify-content: space-between;
+}
+.py_1{
+    padding: 10px 0;
+}
+.py_2{
+    padding: 20px 0;
+}
+.py_3{
+    padding: 30px 0;
+}
+.py_4{
+    padding: 40px 0;
+}
+.py_5{
+    padding: 50px 0;
+}
+.w100{
+    width: 100%;
+}
+.h100{
+    height: 100%;
+}
+.obj_con{
+    object-fit: contain;
+}
+.obj_cov{
+    object-fit: cover;
+}
+.pr{
+    position: relative;
+}
+.pa{
+    position: absolute;
+}
+.ps{
+    position: static;
+}
+.pf{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.p_center{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.d_col{
+    flex-direction: column;
+}
+.container{
+    max-width: 1350px;
+    margin: 0 auto;
+}
+@media only screen and (max-width:1350px){
+    .container{
+        max-width: 1200px;
+    }
+}
+@media only screen and (max-width:1278px){
+    .container{
+        max-width: 1120px;
+    }
+}
+@media only screen and (max-width:1200px){
+    .container{
+        max-width: 1050px;
+    }
+}
+@media only screen and (max-width:1100px){
+    .container{
+        max-width: 992px;
+    }
+}
+@media only screen and (max-width:992px){
+    .container{
+        max-width: 860px;
+    }
+}
+@media only screen and (max-width:860){
+    .container{
+        max-width: inherit;
+        padding: 0 40px;
+    }
+}
+@media only screen and (max-width:768){
+    .container{
+        padding: 0 20px;
+    }
+}
